@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markaz Tuba — Notes</title>
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&family=Cairo:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="lantern-strip" aria-hidden="true">
+  <svg class="lantern lantern-1" viewBox="0 0 60 130" xmlns="http://www.w3.org/2000/svg">
+    <line x1="30" y1="0" x2="30" y2="18" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="20" r="3.5" fill="#C6A15B"/>
+    <path d="M18 26 Q30 18 42 26 L42 34 Q30 30 18 34 Z" fill="#C6A15B"/>
+    <path d="M14 34 Q30 26 46 34 L44 92 Q30 100 16 92 Z" fill="#B5495B"/>
+    <path d="M14 34 Q30 26 46 34 L44 92 Q30 100 16 92 Z" fill="url(#lgrad1)" opacity="0.55"/>
+    <path d="M18 40 L42 40 M17 52 L43 52 M17 64 L43 64 M17 76 L43 76" stroke="#F3D9B1" stroke-width="1" opacity="0.6"/>
+    <path d="M16 92 Q30 100 44 92 L40 104 Q30 108 20 104 Z" fill="#C6A15B"/>
+    <line x1="30" y1="108" x2="30" y2="120" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="123" r="3" fill="#C6A15B"/>
+    <defs>
+      <linearGradient id="lgrad1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F3D9B1"/>
+        <stop offset="100%" stop-color="#B5495B"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg class="lantern lantern-2" viewBox="0 0 60 150" xmlns="http://www.w3.org/2000/svg">
+    <line x1="30" y1="0" x2="30" y2="24" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="26" r="4" fill="#C6A15B"/>
+    <path d="M16 34 Q30 24 44 34 L44 42 Q30 38 16 42 Z" fill="#C6A15B"/>
+    <path d="M12 42 Q30 32 48 42 L46 110 Q30 120 14 110 Z" fill="#2F5D50"/>
+    <path d="M12 42 Q30 32 48 42 L46 110 Q30 120 14 110 Z" fill="url(#lgrad2)" opacity="0.5"/>
+    <path d="M16 50 L44 50 M15 64 L45 64 M15 78 L45 78 M15 92 L45 92 M15 100 L45 100" stroke="#F3D9B1" stroke-width="1" opacity="0.55"/>
+    <path d="M14 110 Q30 120 46 110 L41 124 Q30 129 19 124 Z" fill="#C6A15B"/>
+    <line x1="30" y1="129" x2="30" y2="142" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="145" r="3.5" fill="#C6A15B"/>
+    <defs>
+      <linearGradient id="lgrad2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F3D9B1"/>
+        <stop offset="100%" stop-color="#2F5D50"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg class="lantern lantern-3" viewBox="0 0 60 130" xmlns="http://www.w3.org/2000/svg">
+    <line x1="30" y1="0" x2="30" y2="18" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="20" r="3.5" fill="#C6A15B"/>
+    <path d="M18 26 Q30 18 42 26 L42 34 Q30 30 18 34 Z" fill="#C6A15B"/>
+    <path d="M14 34 Q30 26 46 34 L44 92 Q30 100 16 92 Z" fill="#C6A15B"/>
+    <path d="M14 34 Q30 26 46 34 L44 92 Q30 100 16 92 Z" fill="url(#lgrad3)" opacity="0.5"/>
+    <path d="M18 40 L42 40 M17 52 L43 52 M17 64 L43 64 M17 76 L43 76" stroke="#8B4B54" stroke-width="1" opacity="0.5"/>
+    <path d="M16 92 Q30 100 44 92 L40 104 Q30 108 20 104 Z" fill="#C6A15B"/>
+    <line x1="30" y1="108" x2="30" y2="120" stroke="#C6A15B" stroke-width="1.5"/>
+    <circle cx="30" cy="123" r="3" fill="#C6A15B"/>
+    <defs>
+      <linearGradient id="lgrad3" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F3D9B1"/>
+        <stop offset="100%" stop-color="#C6A15B"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+
+<div class="topbar">
+  <img src="assets/logo.png" alt="Markaz Tuba" onclick="location.hash=''">
+  <div class="titles">
+    <h1>Markaz Tuba <span class="ar">للدراسات الاسلامیۃ</span></h1>
+    <p>Talibaat ke Dars Notes</p>
+  </div>
+</div>
+<div class="stripe"></div>
+
+<div class="wrap">
+  <div class="breadcrumbs" id="crumbs"></div>
+  <div id="app"></div>
+</div>
+
+<footer class="site-footer">
+  <span>Made with <span class="heart">♡</span> by Mukhlisa Muneer</span>
+</footer>
+
+<!--
+  Neeche har mazmoon ki data file ko <script> ke zariye shamil karna zaroori hai,
+  warna naya mazmoon shamil karne ke baad bhi woh page par nazar nahi aayega.
+  Jab bhi data/ folder mein nayi file banayein, iski ek line yahan bhi shamil karein.
+-->
+<script src="data/subjects-index.js"></script>
+<script src="data/mustawa3-fiqh.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
